@@ -85,3 +85,10 @@ This project is a **Decentralized Crowdfunding Platform** built on Ethereum smar
 ```bash
 git clone https://github.com/The-Eminent/Adv-Blockchain-Final-Project
 cd decentralized-crowdfunding
+npm install
+truffle compile
+truffle migrate --reset
+cd client
+npm install
+npm start
+
